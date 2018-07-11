@@ -18,7 +18,6 @@ public class TestFirstExemple {
     public  void setUp() {
         System.setProperty("webdriver.chrome.driver", "./chromedriver"); //initializing the driver in the operating system for Orthodox
         System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe"); //initializing the driver in the operating system for Antichrists
-
         driver.manage().window().maximize();
     }
 
