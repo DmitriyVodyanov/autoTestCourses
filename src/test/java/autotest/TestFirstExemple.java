@@ -12,18 +12,20 @@ import static org.testng.Assert.assertTrue;
 
 public class TestFirstExemple {
 
-    WebDriver driver= new ChromeDriver();
+    WebDriver driver = new ChromeDriver();
 
     @BeforeClass
     public  void setUp() {
-        System.setProperty("webdriver.chrome.driver", "./chromedriver"); //initializing the driver in the operating system for Orthodox
-        System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe"); //initializing the driver in the operating system for Antichrists
+        String OS = System.getProperty("os.name");
+        if (OS.toLowerCase().contains("windows")) {
+            System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe"); //initializing the driver in the operating system for Antichrists
+        } else
+            System.setProperty("webdriver.chrome.driver", "./toolsLinux/chromedriver"); //initializing the driver in the operating system for Orthodox
         driver.manage().window().maximize();
     }
 
     @Test
     public void SearchWeather() {
-
         driver.get("https://www.yandex.ru/");
         WebElement fieldInput = driver.findElement(By.id("text"));
         fieldInput.clear();
