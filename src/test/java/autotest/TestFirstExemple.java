@@ -32,8 +32,8 @@ public class TestFirstExemple {
         fieldInput.sendKeys("погода в пензе");
         WebElement searchButton = driver.findElement(By.cssSelector(".search2__button button"));
         searchButton.click();
-        WebElement link = driver.findElement(By.cssSelector(".serp-item:nth-child(3)  .organic__url"));
-        String linkPage = link.getText();
+        WebElement firstLink = driver.findElement(By.cssSelector(".serp-item:nth-child(3)  .organic__url"));
+        String linkPage = firstLink.getText();
         assertTrue(linkPage.toLowerCase().contains("пензе"));
 
     }
