@@ -35,7 +35,7 @@ public class TestFirstExemple {
         WebElement link = driver.findElement(By.linkText("Погода в Пензе"));
         String linkPage = link.getText();
         assertTrue(linkPage.toLowerCase().contains("пензе"));
-        driver.quit();
+        
     }
 
     @AfterClass
