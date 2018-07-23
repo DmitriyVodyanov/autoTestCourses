@@ -1,4 +1,4 @@
-package autotest.lecture05.base;
+package autotest.base;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

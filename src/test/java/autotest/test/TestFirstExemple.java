@@ -1,7 +1,7 @@
-package autotest.lecture05.tests;
+package autotest.test;
 
-import autotest.lecture05.base.BaseTest;
-import autotest.lecture05.pages.SearchPage;
+import autotest.base.BaseTest;
+import autotest.page.SearchPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
 import static org.testng.Assert.assertTrue;

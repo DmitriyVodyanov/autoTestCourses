@@ -1,4 +1,4 @@
-package autotest.lecture05.base;
+package autotest.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,13 +14,13 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.yandex.ru/");
+        driver.get("https://www.yandex.by/");
     }
 
-    @AfterClass
-    public void tearDown() {
-        driver.quit();
-    }
+//    @AfterClass
+//    public void tearDown() {
+//        driver.quit();
+//    }
 }
 
 

@@ -1,6 +1,6 @@
-package autotest.lecture05.pages;
+package autotest.page;
 
-import autotest.lecture05.base.BasePage;
+import autotest.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
