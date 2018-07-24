@@ -6,9 +6,12 @@ import org.openqa.selenium.WebDriver;
 
 public class SearchPage extends BasePage {
 
-    By FieldInput = By.id("text");
-    By searchButton = By.cssSelector(".search2__button button");
-    By firstLink = By.cssSelector(".serp-item:nth-child(3)  .organic__url");
+    private By FieldInput = By.id("text");
+    private By searchButton = By.cssSelector(".search2__button button");
+    private By firstLink = By.cssSelector(".serp-item:nth-child(3)  .organic__url");
+    private By moreButton = By.cssSelector("a[data-statlog='tabs.more']");
+    private By locationLink = By.cssSelector("a[data-statlog='head.region.setup']");
+    private By more = By.className("home-tabs__more-item");
 
     private final WebDriver driver;
 
@@ -17,7 +20,7 @@ public class SearchPage extends BasePage {
         this.driver = driver;
     }
 
-    public void search(String text) {
+    public void searchWeather(String text) {
         clearFieldByElement(FieldInput);
         sendKeysByElement(FieldInput, text);
         clickByElement(searchButton);
@@ -25,5 +28,13 @@ public class SearchPage extends BasePage {
 
     public String getResult() {
         return driver.findElement(firstLink).getText();
+    }
+
+    public void selectLocationMainPage() {
+        clickByElement(locationLink);
+    }
+
+    public void openMoreCatalog() {
+        clickByElement(moreButton);
     }
 }

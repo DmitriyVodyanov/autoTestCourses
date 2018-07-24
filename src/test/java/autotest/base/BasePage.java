@@ -7,14 +7,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
 
-    private static WebDriver driver;
+    public WebDriver driver;
 
-    public BasePage(WebDriver driver) {
+    public BasePage(final WebDriver driver) {
         this.driver = driver;
     }
 
     public void waitForElement(By locator) {
-        (new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(locator));
+        (new WebDriverWait(driver, 15)).until(ExpectedConditions.presenceOfElementLocated(locator));
     }
 
     public void clearFieldByElement(By locator) {
