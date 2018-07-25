@@ -14,7 +14,7 @@ public class BasePage {
     }
 
     public void waitForElement(By locator) {
-        (new WebDriverWait(driver, 15)).until(ExpectedConditions.presenceOfElementLocated(locator));
+        (new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(locator));
     }
 
     public void clearFieldByElement(By locator) {
