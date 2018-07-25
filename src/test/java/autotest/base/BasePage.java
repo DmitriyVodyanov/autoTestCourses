@@ -1,4 +1,4 @@
-package autotest.lecture05.base;
+package autotest.base;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,9 +7,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
 
-    private static WebDriver driver;
+    public WebDriver driver;
 
-    public BasePage(WebDriver driver) {
+    public BasePage(final WebDriver driver) {
         this.driver = driver;
     }
 
