@@ -4,8 +4,10 @@ import autotest.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import java.util.ArrayList;
 import java.util.List;
+
 import static org.openqa.selenium.By.*;
 
 public class SearchPage extends BasePage {
@@ -19,7 +21,7 @@ public class SearchPage extends BasePage {
     private By locationLink = cssSelector("a[data-statlog='head.region.setup']");
     private By more = className("home-tabs__more-item");
     private By inputLocation = id("city__front-input");
-    private By inputlocationCity = cssSelector("li:nth-child(1)");
+    private By locationCity = cssSelector("li:nth-child(1)");
 
     public SearchPage(WebDriver driver) {
         super(driver);
@@ -40,18 +42,26 @@ public class SearchPage extends BasePage {
         clickByElement(locationLink);
         clearFieldByElement(inputLocation);
         sendKeysByElement(inputLocation, text);
-        clickByElement(inputlocationCity);
+//        clickByElement(locationCity);
     }
 
     public List<String> getMoreCatalog() {
         clickByElement(moreButton);
         List<WebElement> moreCatalog = driver.findElements(more);
+//        System.out.println(moreCatalog.size());
         List<String> moreCatalogName = new ArrayList<String>();
         for (int i = 0; i < moreCatalog.size(); i++) {
             moreCatalogName.add(moreCatalog.get(i).getText());
+
+
         }
+
         return moreCatalogName;
     }
 
+
 }
+
+
+
 
