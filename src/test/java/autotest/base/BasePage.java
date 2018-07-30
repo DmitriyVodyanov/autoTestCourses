@@ -51,6 +51,5 @@ public class BasePage {
     public void selectByElement(By locator, String text) {
         Select selectElement = new Select(driver.findElement(locator));
         selectElement.selectByVisibleText(text);
-
     }
 }
