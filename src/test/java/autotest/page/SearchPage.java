@@ -42,24 +42,18 @@ public class SearchPage extends BasePage {
         clickByElement(locationLink);
         clearFieldByElement(inputLocation);
         sendKeysByElement(inputLocation, text);
-//        clickByElement(locationCity);
+        clickByElement(locationCity);
     }
 
     public List<String> getMoreCatalog() {
         clickByElement(moreButton);
         List<WebElement> moreCatalog = driver.findElements(more);
-//        System.out.println(moreCatalog.size());
         List<String> moreCatalogName = new ArrayList<String>();
         for (int i = 0; i < moreCatalog.size(); i++) {
             moreCatalogName.add(moreCatalog.get(i).getText());
-
-
         }
-
         return moreCatalogName;
     }
-
-
 }
 
 

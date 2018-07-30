@@ -19,7 +19,6 @@ import static org.testng.Assert.assertTrue;
 public class TestExemple extends BaseTest {
 
     private SearchPage searchPage;
-    private MarketPage marketPage;
 
     @BeforeClass
     public void beforeTest() {
@@ -34,45 +33,20 @@ public class TestExemple extends BaseTest {
         assertTrue(searchPage.getResult().toLowerCase().contains("пензе"));
     }
 
-    //    @Ignore
     @Test
     public void compareListMoreTest() {
         driver.get("https://www.yandex.ru/");
         searchPage.selectLocation("лондон");
         List<String> moreListCityOne = searchPage.getMoreCatalog();
-        moreListCityOne.add("ролфырвлоРФЫЛВРвф6487498ы");
-        
+        moreListCityOne.add("Почта");
         System.out.println(moreListCityOne);
         searchPage.selectLocation("париж ");
         List<String> moreListCityTwo = searchPage.getMoreCatalog();
-//        moreListCityTwo.add("asdasdasda1");
-//        moreListCityTwo.remove(4);
         System.out.println(moreListCityTwo);
-        Collections.sort(moreListCityOne);
-        Collections.sort(moreListCityTwo);
-//        Assert.assertTrue(moreListCityOne.equals(moreListCityTwo));
-        for (int i = 0; i < moreListCityOne.size(); i++) {
-                assertEquals(moreListCityOne.get(i), moreListCityTwo.get(i));
-
+        for (String elementOne : moreListCityOne) {
+            for (String elementTwo : moreListCityTwo) {
+                assertEquals(elementOne, elementTwo);
+            }
         }
-    }
-
-
-
-//        searchPage.compareTwoLists(moreListCityOne, moreListCityTwo );
-
-//    }
-//        }
-
-
-    @Ignore
-    @Test
-    public void marketQuantityElementsTest() {
-        driver.get("https://market.yandex.ru/");
-        marketPage.computerPage();
-//        List<WebElement> value = marketPage.getCatalogComputers();
-//        assertEquals(value, 48);
-
-
     }
 }

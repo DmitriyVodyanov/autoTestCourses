@@ -14,13 +14,12 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-//        driver.get("https://www.yandex.ru/");
     }
 
     @AfterClass
     public void tearDown() {
-//        driver.quit();
-//        driver.close();
+        driver.quit();
+        driver.close();
     }
 }
 
