@@ -38,14 +38,17 @@ public class TestExemple extends BaseTest {
         driver.get("https://www.yandex.ru/");
         searchPage.selectLocation("лондон");
         List<String> moreListCityOne = searchPage.getMoreCatalog();
-        moreListCityOne.add("Почта");
+        moreListCityOne.set(5,"asdfasd");
         System.out.println(moreListCityOne);
         searchPage.selectLocation("париж ");
         List<String> moreListCityTwo = searchPage.getMoreCatalog();
         System.out.println(moreListCityTwo);
-        for (String elementOne : moreListCityOne) {
-            for (String elementTwo : moreListCityTwo) {
-                assertEquals(elementOne, elementTwo);
+        if (moreListCityOne.size() != moreListCityTwo.size()) {
+            System.out.println("Списки не равны по длине");
+        }
+        if (moreListCityOne.size() == moreListCityTwo.size()) {
+            for (int i = 0; i < moreListCityOne.size(); i++) {
+                Assert.assertEquals(moreListCityOne.get(i), moreListCityTwo.get(i));
             }
         }
     }
