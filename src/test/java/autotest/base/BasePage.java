@@ -52,4 +52,9 @@ public class BasePage {
         Select selectElement = new Select(driver.findElement(locator));
         selectElement.selectByVisibleText(text);
     }
+
+    public void backToPage() {
+        driver.navigate().back();
+
+    }
 }

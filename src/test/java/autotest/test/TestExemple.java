@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.util.Collections;
 import java.util.List;
 
 import static org.testng.Assert.assertEquals;
@@ -37,7 +38,7 @@ public class TestExemple extends BaseTest {
         driver.get("https://www.yandex.ru/");
         searchPage.selectLocation("лондон");
         List<String> moreListCityOne = searchPage.getMoreCatalog();
-        moreListCityOne.set(5,"asdfasd");
+        moreListCityOne.set(5, "asdfasd");
         System.out.println(moreListCityOne);
         searchPage.selectLocation("париж ");
         List<String> moreListCityTwo = searchPage.getMoreCatalog();
@@ -54,12 +55,18 @@ public class TestExemple extends BaseTest {
 
     @Test
     public void marketTest() {
-       driver.get("https://market.yandex.ru");
+        driver.get("https://market.yandex.ru");
         marketPage.computerTwelveElementsPage();
-//        List<Integer> laptopCatalog = Collections.singletonList(marketPage.getCatalogComputers());
-//        System.out.println(marketPage.getCatalogComputers());
+        List<Integer> laptopCatalog = Collections.singletonList(marketPage.getCatalogComputers());
+        System.out.println(marketPage.getCatalogComputers());
         assertEquals(marketPage.getCatalogComputers(), 12);
         marketPage.computerFortyEightElementsPage();
         assertEquals(marketPage.getCatalogComputers(), 48);
+
+        marketPage.compareElementPage();
+        assertTrue(marketPage.getComparedItemOnPage() > 0);
+        marketPage.removeElementsCopared();
+        assertTrue(marketPage.notItemCompared().toLowerCase().contains("товаров нет"));
+        marketPage.notItemCompared();
     }
 }

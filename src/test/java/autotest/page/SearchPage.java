@@ -14,14 +14,23 @@ public class SearchPage extends BasePage {
 
     private final WebDriver driver;
 
-    private By FieldInput = id("text");
-    private By searchButton = cssSelector(".search2__button button");
-    private By firstLink = cssSelector(".serp-item:nth-child(3)  .organic__url");
-    private By moreButton = cssSelector("a[data-statlog='tabs.more']");
-    private By locationLink = cssSelector("a[data-statlog='head.region.setup']");
-    private By more = className("home-tabs__more-item");
-    private By inputLocation = id("city__front-input");
-    private By locationCity = cssSelector("li:nth-child(1)");
+    By FieldInput = id("text");
+    By searchButton = cssSelector(".search2__button button");
+    By firstLink = cssSelector(".serp-item:nth-child(3) .organic__url");
+    By moreButton = cssSelector("a[data-statlog='tabs.more']");
+    By locationLink = cssSelector("a[data-statlog='head.region.setup']");
+    By more = className("home-tabs__more-item");
+    By inputLocation = id("city__front-input");
+    By locationCity = cssSelector("li:nth-child(1)");
+    By videoLink = cssSelector("a[data-id='video']");
+    By imagesLink = cssSelector("a[data-id='images']");
+    By newsLink = cssSelector("a[data-id='news']");
+    By mapsLink = cssSelector("a[data-id='maps']");
+    By marketLink = cssSelector("a[data-id='market']");
+    By translateLink = cssSelector("a[data-id='translate']");
+    By musicLink = cssSelector("a[data-id='music']");
+    By tvonlineLink = cssSelector("a[data-id='tvonline']");
+
 
     public SearchPage(WebDriver driver) {
         super(driver);
@@ -53,6 +62,12 @@ public class SearchPage extends BasePage {
             moreCatalogName.add(moreCatalog.get(i).getText());
         }
         return moreCatalogName;
+    }
+
+    public void navigation() {
+        clickByElement(videoLink);
+        backToPage();
+        clickByElement(imagesLink);
     }
 }
 
