@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3b8a30a-86ac-461c-a704-ea359462d427" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/autotest/test/TestMarketPage.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/base/BasePage.java" afterPath="$PROJECT_DIR$/src/test/java/autotest/base/BasePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/base/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/autotest/base/BaseTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/autotest/page/MarketPage.java" afterPath="$PROJECT_DIR$/src/test/java/autotest/page/MarketPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/autotest/page/SearchPage.java" afterPath="$PROJECT_DIR$/src/test/java/autotest/page/SearchPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/test/TestExemple.java" afterPath="$PROJECT_DIR$/src/test/java/autotest/test/TestExemple.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotest/test/TestExemple.java" afterPath="$PROJECT_DIR$/src/test/java/autotest/test/TestSeachPage.java" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/autotest/base/BasePage.class" afterPath="$PROJECT_DIR$/target/test-classes/autotest/base/BasePage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/autotest/test/TestExemple.class" afterPath="$PROJECT_DIR$/target/test-classes/autotest/test/TestExemple.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/autotest/base/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/autotest/base/BaseTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/autotest/page/SearchPage.class" afterPath="$PROJECT_DIR$/target/test-classes/autotest/page/SearchPage.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,13 +25,9 @@
       <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/autotest/base/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1235#1236#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,21 +35,69 @@
       <file leaf-file-name="MarketPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/autotest/page/MarketPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1717">
-              <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+            <state relative-caret-position="-613">
+              <caret line="31" column="73" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="73" />
+              <folding>
+                <element signature="e#2339#2340#0" expanded="true" />
+                <element signature="e#2389#2390#0" expanded="true" />
+                <element signature="e#2604#2605#0" expanded="true" />
+                <element signature="e#2672#2673#0" expanded="true" />
+                <element signature="e#2912#2913#0" expanded="true" />
+                <element signature="e#2961#2962#0" expanded="true" />
+                <element signature="e#3006#3007#0" expanded="true" />
+                <element signature="e#3086#3087#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/autotest/base/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1708#1709#0" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#2343#2344#0" expanded="true" />
-                <element signature="e#2393#2394#0" expanded="true" />
-                <element signature="e#2608#2609#0" expanded="true" />
-                <element signature="e#2676#2677#0" expanded="true" />
-                <element signature="e#2916#2917#0" expanded="true" />
-                <element signature="e#2965#2966#0" expanded="true" />
-                <element signature="e#3010#3011#0" expanded="true" />
-                <element signature="e#3087#3088#0" expanded="true" />
-                <element signature="e#3295#3303#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/autotest/page/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1611#1612#0" expanded="true" />
+                <element signature="e#2245#2246#0" expanded="true" />
+                <element signature="e#2286#2287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSeachPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/autotest/test/TestSeachPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-425">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMarketPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/autotest/test/TestMarketPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,23 +106,9 @@
       <file leaf-file-name="Invoker.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
+            <state relative-caret-position="7718">
+              <caret line="497" column="0" lean-forward="false" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/autotest/base/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -86,67 +116,31 @@
       <file leaf-file-name="ExpectedExceptionsHolder.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/ExpectedExceptionsHolder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/autotest/page/SearchPage.java">
+      <file leaf-file-name="RegexpExpectedExceptionsHolder.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/RegexpExpectedExceptionsHolder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="22" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1550#1551#0" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestAnnotation.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/annotations/TestAnnotation.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#1183#1184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestExemple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/autotest/test/TestExemple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDK15AnnotationFinder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/annotations/JDK15AnnotationFinder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pair.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/collections/Pair.class">
+      <file leaf-file-name="TestResult.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestResult.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1207">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding>
+                <element signature="e#3059#3060#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,11 +154,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compare</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="home-work05" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -211,11 +210,14 @@
         <option value="$PROJECT_DIR$/src/test/java/autotest/page/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotest/page/LocationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotest/page/LaptopPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotest/test/TestExemple.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotest/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotest/base/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotest/page/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotest/test/TestExemple.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotest/test/MarketPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotest/test/TestSeachPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotest/page/MarketPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotest/test/TestMarketPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotest/page/SearchPage.java" />
       </list>
     </option>
   </component>
@@ -361,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestExemple.sortByPriseTest">
+  <component name="RunManager" selected="TestNG.TestMarketPage.marketQuantityItemOnPageTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -473,70 +475,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestExemple" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="autotest.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testexemple" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="autotest" />
-      <option name="MAIN_CLASS_NAME" value="autotest.test.TestExemple" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestExemple.navigationPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="autotest.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testexemple" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="autotest.test" />
-      <option name="MAIN_CLASS_NAME" value="autotest.test.TestExemple" />
-      <option name="METHOD_NAME" value="navigationPage" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="TestExemple.sortByPriseTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -601,6 +539,70 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="TestMarketPage.marketQuantityItemOnPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="autotest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testexemple" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="autotest.test" />
+      <option name="MAIN_CLASS_NAME" value="autotest.test.TestMarketPage" />
+      <option name="METHOD_NAME" value="marketQuantityItemOnPageTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestSeachPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="autotest.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testexemple" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="autotest" />
+      <option name="MAIN_CLASS_NAME" value="autotest.test.TestSeachPage" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -635,19 +637,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.TestExemple" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.TestSeachPage" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.MyFirstTest" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.MyFirstTest.testCase" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestExemple.navigationPage" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestExemple.sortByPriseTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestLocation" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestMarketPage.marketQuantityItemOnPageTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestExemple.sortByPriseTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestExemple" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestExemple.navigationPage" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.MyFirstTest.testCase" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.MyFirstTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestMarketPage.marketQuantityItemOnPageTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestLocation" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.MyFirstTest.testCase" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.MyFirstTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TestSeachPage" />
       </list>
     </recent_temporary>
   </component>
@@ -673,15 +675,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestExemple_sortByPriseTest - 2018.08.02 at 14h 31m 23s.xml">
-      <configuration name="TestExemple.sortByPriseTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestExemple_sortByPriseTest - 2018.08.02 at 14h 31m 58s.xml">
-      <configuration name="TestExemple.sortByPriseTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestExemple_sortByPriseTest - 2018.08.02 at 14h 34m 08s.xml">
-      <configuration name="TestExemple.sortByPriseTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestExemple_sortByPriseTest - 2018.08.02 at 14h 36m 15s.xml">
       <configuration name="TestExemple.sortByPriseTest" configurationId="TestNG" />
     </history-entry>
@@ -703,12 +696,21 @@
     <history-entry file="TestExemple_sortByPriseTest - 2018.08.02 at 15h 26m 42s.xml">
       <configuration name="TestExemple.sortByPriseTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMarketPage_marketQuantityItemOnPageTest - 2018.08.02 at 16h 47m 33s.xml">
+      <configuration name="TestMarketPage.marketQuantityItemOnPageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMarketPage_marketQuantityItemOnPageTest - 2018.08.02 at 16h 47m 36s.xml">
+      <configuration name="TestMarketPage.marketQuantityItemOnPageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMarketPage_marketQuantityItemOnPageTest - 2018.08.02 at 16h 48m 47s.xml">
+      <configuration name="TestMarketPage.marketQuantityItemOnPageTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125354000" />
+    <option name="totallyTimeSpent" value="126721000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -735,12 +737,36 @@
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26413044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18070363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -783,18 +809,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar!/org/openqa/selenium/remote/internal/OkHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar!/org/openqa/selenium/remote/http/HttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -900,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -978,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,29 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="e#3059#3060#0" expanded="true" />
-            <element signature="e#3628#3629#0" expanded="true" />
-            <element signature="e#3664#3665#0" expanded="true" />
-            <element signature="e#3703#3704#0" expanded="true" />
-            <element signature="e#3739#3740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/RegexpExpectedExceptionsHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,9 +1053,23 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/collections/Pair.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="296">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1531290469938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1531290469938" expanded="true" signature="302:364" ph="{...}" />
+            <marker date="1531290469938" expanded="false" signature="386:397" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="415:421" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="444:455" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="474:480" ph=" }" />
+            <marker date="1531290469938" expanded="true" signature="508:719" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="760:1524" ph="{...}" />
+            <marker date="1531290469938" expanded="false" signature="1584:1595" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1617:1623" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="1679:1690" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1718:1724" ph=" }" />
+            <marker date="1531290469938" expanded="true" signature="1755:1885" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,7 +1077,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1531290469938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1531290469938" expanded="false" signature="155:1751" ph="..." />
+            <marker date="1531290469938" expanded="true" signature="2214:3456" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="3554:3944" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="4026:4446" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="4535:5309" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="5404:5650" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="5746:6848" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="6932:7354" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="7444:7859" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="8033:8470" ph="{...}" />
+            <marker date="1531290469938" expanded="true" signature="8530:9023" ph="{...}" />
+            <marker date="1531290469938" expanded="false" signature="9076:9087" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="9146:9152" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="9210:9221" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="9280:9286" ph=" }" />
+            <marker date="1531290469938" expanded="true" signature="9345:9836" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,55 +1104,143 @@
         <state relative-caret-position="476">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="e#1183#1184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/ExpectedExceptionsHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotest/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
+            <marker date="1531290469938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1531290469938" expanded="false" signature="155:228" ph="..." />
+            <marker date="1531290469938" expanded="true" signature="1080:1087" ph="{}" />
+            <marker date="1531290469938" expanded="true" signature="1134:1145" ph=" { " />
+            <marker date="1531290469938" expanded="true" signature="1178:1184" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="1240:1251" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1284:1290" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="1346:1357" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1403:1409" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="1474:1485" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1531:1537" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="1581:1592" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1616:1622" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="1668:1679" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1706:1712" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="1756:1767" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1799:1805" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="1858:1869" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1901:1907" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="1953:1964" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="1994:2000" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2048:2059" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2091:2097" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2134:2145" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2175:2181" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2218:2229" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2261:2267" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2316:2327" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2359:2365" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2404:2415" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2447:2453" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2490:2501" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2528:2534" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2569:2580" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2604:2610" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2646:2657" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2686:2692" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2737:2748" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2777:2783" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2817:2828" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2852:2858" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2901:2912" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="2936:2942" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="2975:2986" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="3009:3015" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="3057:3068" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="3091:3097" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="3137:3148" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="3177:3183" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="3232:3243" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="3272:3278" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="3314:3325" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="3350:3356" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="3401:3412" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="3437:3443" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="3489:3500" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="3528:3534" ph=" }" />
+            <marker date="1531290469938" expanded="true" signature="3584:3916" ph="{...}" />
+            <marker date="1531290469938" expanded="false" signature="3972:3983" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="4019:4025" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="4069:4080" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="4116:4122" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="4182:4193" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="4233:4239" ph=" }" />
+            <marker date="1531290469938" expanded="false" signature="4287:4298" ph=" { " />
+            <marker date="1531290469938" expanded="false" signature="4338:4344" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/autotest/base/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotest/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotest/test/TestExemple.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="7718">
+          <caret line="497" column="0" lean-forward="false" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/ExpectedExceptionsHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/RegexpExpectedExceptionsHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="e#3059#3060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotest/test/TestMarketPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotest/test/TestSeachPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1142,33 +1249,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/autotest/page/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#2245#2246#0" expanded="true" />
+            <element signature="e#2286#2287#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/autotest/page/MarketPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        <state relative-caret-position="-613">
+          <caret line="31" column="73" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-            <element signature="e#2393#2394#0" expanded="true" />
-            <element signature="e#2608#2609#0" expanded="true" />
-            <element signature="e#2676#2677#0" expanded="true" />
-            <element signature="e#2916#2917#0" expanded="true" />
-            <element signature="e#2965#2966#0" expanded="true" />
-            <element signature="e#3010#3011#0" expanded="true" />
-            <element signature="e#3087#3088#0" expanded="true" />
-            <element signature="e#3295#3303#0" expanded="true" />
+            <element signature="e#2339#2340#0" expanded="true" />
+            <element signature="e#2389#2390#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+            <element signature="e#2912#2913#0" expanded="true" />
+            <element signature="e#2961#2962#0" expanded="true" />
+            <element signature="e#3006#3007#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -29,7 +29,7 @@ public class MarketPage extends BasePage {
     By notItemCompared = className("title_size_18");
     By priceItem = cssSelector(".n-snippet-list div[class ='price']");
     By sortToPriceButton = linkText("по цене");
-    By sortToPriceButtonSelected = className("n-filter-sorter_state_select");
+    By sortToPriceAscButtonSelected = className("n-filter-sorter_sort_asc");
 
     public MarketPage(WebDriver driver) {
         super(driver);
@@ -40,13 +40,13 @@ public class MarketPage extends BasePage {
         clickByElement(laptopLink);
     }
 
-    public void computerTwelveElementsPage() {
+    public void selectTwelveElementsPage() {
         clickByElement(quantityButton);
         clickByElement(selectTwelveElements);
         waitForElement(elementsOnPage);
     }
 
-    public void compareElementPage() {
+    public void addCompareElement() {
         moveByElement(firstElementList);
         clickByElement(compareCheckBoxOneItem);
         moveByElement(secondElementList);
@@ -78,7 +78,7 @@ public class MarketPage extends BasePage {
     }
 
     public String sortPriceLinkSelected() {
-        return String.valueOf(resultValue(sortToPriceButtonSelected));
+        return String.valueOf(resultValue(sortToPriceAscButtonSelected));
     }
 
     public List<Integer> sortByPrice() {
