@@ -81,8 +81,12 @@ public class TestExemple extends BaseTest {
 
     @Test
     public void sortByPriseTest() {
-
-        System.out.println(marketPage.sortByPrice());
+        driver.get("https://market.yandex.ru");
+        marketPage.selectCompLaptop();
+        marketPage.sortByPriceClick();
+        assertTrue(marketPage.sortPriceLinkSelected().toLowerCase().contains("n-filter-sorter_state_select"));
+        marketPage.sortByPrice();
+        assertTrue(marketPage.sortList());
     }
 
     @Ignore
@@ -106,20 +110,5 @@ public class TestExemple extends BaseTest {
         searchPage.navigationTvOnline();
         assertEquals(searchPage.getByUrl(), "https://yandex.ru/1tv?stream_active=storefront/");
     }
-
-
-        /*driver.get("https://market.yandex.ru");
-        marketPage.computerTwelveElementsPage();
-        List<Integer> laptopCatalog = Collections.singletonList(marketPage.getCatalogComputers());
-        System.out.println(marketPage.getCatalogComputers());
-        assertEquals(marketPage.getCatalogComputers(), 12);
-        marketPage.computerFortyEightElementsPage();
-        assertEquals(marketPage.getCatalogComputers(), 48);
-
-        marketPage.compareElementPage();
-        assertTrue(marketPage.getComparedItemOnPage() > 0);
-        marketPage.removeElementsCopared();
-        assertTrue(marketPage.notItemCompared().toLowerCase().contains("товаров нет"));
-        marketPage.notItemCompared();*/
 }
 

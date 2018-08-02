@@ -68,6 +68,7 @@ public class SearchPage extends BasePage {
         clickByElement(videoLink);
 //
     }
+
     public void navigationImages() {
         backToPage();
         clickByElement(imagesLink);

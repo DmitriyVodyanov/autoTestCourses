@@ -5,11 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.Collections;
-import java.util.List;
 
 public class BasePage {
 
@@ -38,22 +34,10 @@ public class BasePage {
         driver.findElement(locator).click();
     }
 
-    public void scrollByElement(By locator) {
-        WebElement element = driver.findElement(locator);
-        Actions actionsScroll = new Actions(driver);
-        actionsScroll.moveToElement(element);
-    }
-
     public void moveByElement(By locator) {
         WebElement element = driver.findElement(locator);
         Actions action = new Actions(driver);
         action.moveToElement(element).perform();
-
-    }
-
-    public void selectByElement(By locator, String text) {
-        Select selectElement = new Select(driver.findElement(locator));
-        selectElement.selectByVisibleText(text);
     }
 
     public void backToPage() {
@@ -64,4 +48,10 @@ public class BasePage {
 //        waitForElement(locator);
         return driver.getCurrentUrl();
     }
+
+    public String resultValue(By locator) {
+
+        return driver.findElement(locator).getAttribute("class");
+    }
+
 }
