@@ -5,9 +5,10 @@ import autotest.page.MarketPage;
 import autotest.page.SearchPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Test;
 
-import java.util.Collections;
 import java.util.List;
 
 import static org.testng.Assert.assertEquals;
@@ -53,9 +54,61 @@ public class TestExemple extends BaseTest {
         }
     }
 
+    @Ignore
     @Test
     public void marketTest() {
         driver.get("https://market.yandex.ru");
+        marketPage.selectCompLaptop();
+        marketPage.getCatalogComputers();
+        assertEquals(marketPage.getCatalogComputers(), 48);
+        marketPage.computerTwelveElementsPage();
+        marketPage.getCatalogComputers();
+        assertEquals(marketPage.getCatalogComputers(), 12);
+    }
+
+
+    @Ignore
+    @Test
+    public void compareItem() {
+        driver.get("https://market.yandex.ru");
+        marketPage.selectCompLaptop();
+        marketPage.compareElementPage();
+        assertTrue(marketPage.getComparedItemOnPage() > 0);
+        marketPage.removeElementsCopared();
+//        assertTrue(marketPage.notItemCompared().toLowerCase().contains("товаров нет"));
+        assertEquals(marketPage.notItemCompared().toLowerCase(), "товаров нет");
+    }
+
+    @Test
+    public void sortByPriseTest() {
+
+        System.out.println(marketPage.sortByPrice());
+    }
+
+    @Ignore
+    @Test
+    public void navigationPage() {
+        driver.get("https://yandex.ru");
+        searchPage.navigationVideo();
+        assertEquals(searchPage.getByUrl(), "https://yandex.ru/video/");
+        searchPage.navigationImages();
+        assertEquals(searchPage.getByUrl(), "https://yandex.ru/images/");
+        searchPage.navigationNews();
+        assertEquals(searchPage.getByUrl(), "https://news.yandex.ru/");
+        searchPage.navigationMaps();
+        assertTrue(searchPage.getByUrl().contains("https://yandex.ru/maps/"));
+        searchPage.navigationMarket();
+        assertTrue(searchPage.getByUrl().contains("https://market.yandex.ru/"));
+        searchPage.navigationTranslate();
+        assertEquals(searchPage.getByUrl(), "https://translate.yandex.ru/");
+        searchPage.navigationMusic();
+        assertTrue(searchPage.getByUrl().contains("https://music.yandex.ru/"));
+        searchPage.navigationTvOnline();
+        assertEquals(searchPage.getByUrl(), "https://yandex.ru/1tv?stream_active=storefront/");
+    }
+
+
+        /*driver.get("https://market.yandex.ru");
         marketPage.computerTwelveElementsPage();
         List<Integer> laptopCatalog = Collections.singletonList(marketPage.getCatalogComputers());
         System.out.println(marketPage.getCatalogComputers());
@@ -67,6 +120,6 @@ public class TestExemple extends BaseTest {
         assertTrue(marketPage.getComparedItemOnPage() > 0);
         marketPage.removeElementsCopared();
         assertTrue(marketPage.notItemCompared().toLowerCase().contains("товаров нет"));
-        marketPage.notItemCompared();
-    }
+        marketPage.notItemCompared();*/
 }
+

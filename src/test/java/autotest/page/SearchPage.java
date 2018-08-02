@@ -29,7 +29,7 @@ public class SearchPage extends BasePage {
     By marketLink = cssSelector("a[data-id='market']");
     By translateLink = cssSelector("a[data-id='translate']");
     By musicLink = cssSelector("a[data-id='music']");
-    By tvonlineLink = cssSelector("a[data-id='tvonline']");
+    By tvOnlineLink = cssSelector("a[data-id='tvonline']");
 
 
     public SearchPage(WebDriver driver) {
@@ -64,10 +64,43 @@ public class SearchPage extends BasePage {
         return moreCatalogName;
     }
 
-    public void navigation() {
+    public void navigationVideo() {
         clickByElement(videoLink);
+//
+    }
+    public void navigationImages() {
         backToPage();
         clickByElement(imagesLink);
+    }
+
+    public void navigationNews() {
+        backToPage();
+        clickByElement(newsLink);
+    }
+
+    public void navigationMaps() {
+        backToPage();
+        clickByElement(mapsLink);
+    }
+
+    public void navigationMarket() {
+        backToPage();
+        clickByElement(marketLink);
+    }
+
+    public void navigationTranslate() {
+        backToPage();
+        clickByElement(translateLink);
+    }
+
+    public void navigationMusic() {
+        backToPage();
+        clickByElement(musicLink);
+    }
+
+    public void navigationTvOnline() {
+        backToPage();
+        clickByElement(tvOnlineLink);
     }
 }
 

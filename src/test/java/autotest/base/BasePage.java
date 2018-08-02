@@ -8,6 +8,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.Collections;
+import java.util.List;
+
 public class BasePage {
 
     public WebDriver driver;
@@ -42,10 +45,10 @@ public class BasePage {
     }
 
     public void moveByElement(By locator) {
-        waitForElement(locator);
         WebElement element = driver.findElement(locator);
-        Actions moveElement = new Actions(driver);
-        moveElement.moveToElement(element).build().perform();
+        Actions action = new Actions(driver);
+        action.moveToElement(element).perform();
+
     }
 
     public void selectByElement(By locator, String text) {
@@ -55,6 +58,10 @@ public class BasePage {
 
     public void backToPage() {
         driver.navigate().back();
+    }
 
+    public String getByUrl() {
+//        waitForElement(locator);
+        return driver.getCurrentUrl();
     }
 }
