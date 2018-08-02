@@ -11,7 +11,11 @@ public class BaseTest {
 
     @BeforeClass
     public void initializeDriver() {
-        System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
+        String OS = System.getProperty("os.name");
+        if (OS.toLowerCase().contains("windows")) {
+            System.setProperty("webdriver.chrome.driver", "chromedriver.exe"); //initializing the driver in the operating system for Antichrists
+        } else
+            System.setProperty("webdriver.chrome.driver", "./toolsLinux/chromedriver"); //initializing the driver in the operating system for Orthodox
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
@@ -19,7 +23,6 @@ public class BaseTest {
     @AfterClass
     public void tearDown() {
         driver.quit();
-        driver.close();
     }
 }
 
