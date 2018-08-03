@@ -6,6 +6,7 @@ import autotest.page.SearchPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import java.util.List;
 
@@ -24,9 +25,9 @@ public class TestSeachPage extends BaseTest {
         marketPage = PageFactory.initElements(driver, MarketPage.class);
     }
 
+    @Ignore
     @Test
     public void SearchWeatherTest() {
-
         searchPage.searchWeather("погода в пензе");
         assertTrue(searchPage.getResult().toLowerCase().contains("пензе"));
     }
