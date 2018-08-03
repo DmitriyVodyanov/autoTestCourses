@@ -1,0 +1,6 @@
+autotest\base\BasePage.class
+autotest\base\BaseTest.class
+autotest\test\TestMarketPage.class
+autotest\page\MarketPage.class
+autotest\test\TestSeachPage.class
+autotest\page\SearchPage.class
