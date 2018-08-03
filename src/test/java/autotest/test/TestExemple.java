@@ -24,6 +24,7 @@ public class TestExemple extends BaseTest {
         assertTrue(searchPage.getResult().toLowerCase().contains("пензе"));
     }
 
+    @Ignore
     @Test
     public void compareListMoreTest() {
         driver.get("https://www.yandex.ru/");
